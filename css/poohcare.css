@@ -146,20 +146,21 @@ body.dark-theme .dropdown-item {
 }
 
 .mode-container i.fa-sun {
-    display: block;
+    display: none;
 }
 
 .mode-container i.fa-moon {
-    display: none;
+    display: block;
 }
 
 input:checked + .mode-container i.fa-sun {
-    display: none;
+    display: block;
     background: transparent;
+    color: #ddd;
 }
 
 input:checked + .mode-container i.fa-moon {
-    display: block;
+    display: none;
     background: transparent;
     color: #fff;
 }
