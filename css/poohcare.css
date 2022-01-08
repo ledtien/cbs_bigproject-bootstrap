@@ -822,14 +822,10 @@ a.play-icon.popup-with-zoom-anim img:hover {
 
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-    cursor: -moz-zoom-out;
-    cursor: -webkit-zoom-out;
     cursor: zoom-out;
 }
 .mfp-zoom {
     cursor: pointer;
-    cursor: -webkit-zoom-in;
-    cursor: -moz-zoom-in;
     cursor: zoom-in;
 }
 
@@ -1038,8 +1034,9 @@ body.dark-theme .people {
     opacity: 0.8;
 }
 
-#testimonials-owl .owl-dots button:focus-visible,
-#testimonials-owl .owl-dots button.acive:focus-visible {
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
     outline: 0;
 }
 
