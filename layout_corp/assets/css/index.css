@@ -32,7 +32,9 @@ body {
 }
 
 /* header */
-
+.navbar-toggler {
+  background: var(--primary-color);
+}
 .main-header {
   position: fixed;
   top: 0;
@@ -45,6 +47,15 @@ body {
   border-bottom: 1px solid rgba(231, 231, 231, 0.18);
   z-index: 99;
   padding: 0;
+}
+
+.navbar-collapse.collapse.show {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fixed-top.scrolled .navbar-collapse.collapse.show {
+  background-color: white;
 }
 
 .fixed-top.scrolled {
@@ -93,7 +104,6 @@ body {
 }
 
 .navbar-nav .dropdown-menu {
-  transform: translateX(-30%);
   border-radius: 8px;
 }
 
@@ -102,7 +112,7 @@ body {
   position: absolute;
   border: 20px solid black;
   border-color: transparent transparent white transparent;
-  left: 30%;
+  left: 20%;
   top: -30px;
 }
 
