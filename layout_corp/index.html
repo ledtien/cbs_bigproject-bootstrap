@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!-- ============================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ============================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ============================= -->
+    <link rel="stylesheet" href="./assets/js/slick-1.8.1/slick/slick.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="./assets/js/slick-1.8.1/slick/slick-theme.css"
+    /> -->
+    <!-- ============================= -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- ============================== -->
+    <link rel="stylesheet" href="/layout_corp/assets/css/index.css" />
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./assets/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <!--  -->
+    <title>Corp Vision</title>
+  </head>
+  <body>
+    <header class="fixed-top main-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <h1>
+            <a class="navbar-brand" href="#"
+              ><span><i class="fa fa-align-right"></i>Corp Vision</span>
+              <span class="logo">Vision to your Future</span></a
+            >
+          </h1>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">BLOG POSTS</a>
+                  <a class="dropdown-item" href="#">404 PAGE</a>
+                  <a class="dropdown-item" href="#">LANDING PAGE</a>
+                  <a class="dropdown-item" href="#">ELEMENTS PAGE</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <!-- search -->
+            <div class="header-search">
+              <div class="control mr-3">
+                <div class="btn-material">
+                  <i class="fa fa-search icon-material-search"></i>
+                </div>
+              </div>
+              <i class="icon-close fa fa-close material-icons"></i>
+              <form action="https://wp.w3layouts.com/corpvision/" method="GET" class="search-input">
+                <input class="input-search" name="s" placeholder="Start Typing" type="text">
+                </form>
+            </div>
+            <!-- toggle dark/light -->
+            <div class="header-theme text-center">
+              <div class="toggle">
+                <button id="switchBtn" class="mode-container">
+                  <span class="gg-sun"><i class="far fa-sun"></i></span>
+                  <span class="gg-moon"><i class="far fa-moon"></i></span>
+                  
+                </button>
+              </div>
+            </div>
+            <!-- end toggle dark/light -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- banner wrap -->
+    <div class="banner-wrap">
+      <div class="banner-slider">
+          <div class="banner-slide bg1">
+            <div class="container">
+              <div class="slide-content">
+                <h1 class="animate__animated animate__fadeInUp animate__delay-0.8s ">We will solve your issues our vision to your future</h1>
+                <p class="animate__animated animate__fadeInDown ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam, fugiat.
+                </p>
+                <button class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s ">Learn More</button>
+              </div>
+              <div class="slide-overlay"></div>
+
+            </div>
+          </div>
+          <div class="banner-slide bg2">
+            <div class="container">
+              <div class="slide-content">
+                <h1  class="animate__animated animate__fadeInUp animate__delay-0.8s ">Embracing success do our best, need best advice</h1>
+                <p class="animate__animated animate__fadeInDown ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam, fugiat.
+                </p>
+                <button class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s ">Get Started</button>
+              </div>
+              <div class="slide-overlay"></div>
+
+            </div>
+          </div>
+          <div class="banner-slide bg3">
+            <div class="container">
+              <div class="slide-content">
+                <h1 class="animate__animated animate__fadeInUp animate__delay-0.8s ">Digital transformation driven by technology</h1>
+                <p class="animate__animated animate__fadeInDown ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam, fugiat.
+                </p>
+                <button class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s ">Learn more</button>
+              </div>
+              <div class="slide-overlay"></div>
+
+            </div>
+          </div>
+          <div class="banner-slide bg4">
+            <div class="container">
+              <div class="slide-content">
+                <h1 class="animate__animated animate__fadeInUp animate__delay-0.8s ">For those who believe in leaving a mark</h1>
+                <p class="animate__animated animate__fadeInDown ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam, fugiat.
+                </p>
+                <button class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s ">Contact Now</button>
+              </div>
+              <div class="slide-overlay"></div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-shape">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+            <path fill-opacity="1">
+              <animate attributeName="d" dur="20000ms" repeatCount="indefinite" values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;"></animate>
+            </path>
+          </svg>
+        </div>
+      </div>
+      
+    </div>
+    <!-- end banner wrap -->
+    <!-- about -->
+    <section class="about">
+      <div class="about-content py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="title-small">About Us</div>
+              <h3 class="title-big">We make the best strategies for you, Enhancing your success</h3>
+              <p class="text-para mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum nemo deserunt magnam quis eveniet, cum tempora perferendis fuga praesentium.</p>
+              <ul class="service-list pt-lg-2 mt-4">
+                <li class="service-link"><a href="#" class=""><span class="fa fa-check-circle"> </span>UI/UX Design and Development</a></li>
+                <li class="service-link"><a href="#" class=""><span class="fa fa-check-circle"> </span>Branding Design and Identity</a></li>
+                <li class="service-link"><a href="#" class=""><span class="fa fa-check-circle"> </span>Mobile App Design and Development</a></li>
+              </ul>
+            </div>
+            <div class="col-6 mt-lg-0 mt-md-5 mt-4">
+              <div class="row position-relative">
+                <div class="col-6"><img src="./assets/img/a.jpg" alt="" class="radius-image img-fluid"></div>
+                <div class="col-6 mt-4">
+                  <img src="./assets/img/c1.jpg" alt="" class="radius-image img-fluid mb-md-3 mb-2">
+                  <img src="./assets/img/c4.jpg" alt="" class="radius-image img-fluid mt-md-3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- work -->
+    <section class="work py-5">
+      <div class="container py-lg-5 py-md-4 py-2">
+        <div class="row align-items-center">
+          <div class="col-lg-6 pr-lg-5">
+            <h5 class="title-small">Every day brings new challenges</h5>
+            <h3 class="title-big mb-4">
+              Creative agency focused on vision, product and people
+            </h3>
+            <p class="text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta accusamus, quas nobis debitis, quae sapiente ratione porro quaerat iusto iste sed tempore distinctio incidunt deleniti natus necessitatibus nemo. Eaque assumenda voluptate quisquam dolores corporis, blanditiis aliquid est quas tempora!</p>
+            <button class="btn btn-success btn-style mt-md-5 mt-4">Discover More</button>
+          </div>
+          <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4">
+            <div class="grid-work">
+              <div class="grid-box">
+                <div class="icon">
+                  <img src="./assets/img/icon1.png" alt="" class="img-fluid">
+                </div>
+                <h4>Our Process</h4>
+              </div>
+              <div class="grid-box">
+                <div class="icon">
+                  <img src="./assets/img/icon2.png" alt="" class="img-fluid">
+                </div>
+                <h4>How We Help</h4>
+              </div>
+              <div class="grid-box">
+                <div class="icon">
+                  <img src="./assets/img/icon3.png" alt="" class="img-fluid">
+                </div>
+                <h4>UI/UX Design</h4>
+              </div>
+              <div class="grid-box">
+                <div class="icon">
+                  <img src="./assets/img/icon4.png" alt="" class="img-fluid">
+                </div>
+                <h4>Creative Ideas</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end work -->
+    <!-- services -->
+    <section class="service py-5">
+      <div class="container py-lg-5 py-md-4 py-2">
+        <h2 class="title-big text-center">
+          Always there for your car, our Services
+        </h2>
+        <div class="row mt-lg-5 mt-md-4 text-center justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-info">
+              <a href="#" class="d-block"><img src="./assets/img/s1.jpg" alt="" class="img-fluid service-img"></a>
+              
+              <div class="blog-info">
+                <a href="#" class="title">Work Expertise</a>
+                <p class="text-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, architecto?</p>
+              </div>
+              <a href="#" class="btn btn-style1 mt-3">Learn More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+            <div class="service-info">
+              <a href="#" class="d-block"><img src="./assets/img/s2.jpg" alt="" class="img-fluid service-img"></a>
+              
+              <div class="blog-info">
+                <a href="#" class="title">Product Development</a>
+                <p class="text-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, architecto?</p>
+              </div>
+              <a href="#" class="btn btn-style1 mt-3">Learn More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+            <div class="service-info">
+              <a href="#" class="d-block"><img src="./assets/img/s3.jpg" alt="" class="img-fluid service-img"></a>
+              
+              <div class="blog-info">
+                <a href="#" class="title">Software Development</a>
+                <p class="text-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, architecto?</p>
+              </div>
+              <a href="#" class="btn btn-style1 mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+    <section class="gallery py-5">
+      <div class="container py-lg-5 py-md-4 py-2">
+        <div class="title-content text-center mb-5">
+          <h4 class="title-small">Our Gallery</h4>
+          <h3 class="title-big mx-lg-5">Successful projects we've done</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4 item">
+            <a href="./assets/img/c1.jpg" data-fancybox="gallery" data-caption="#1" class="gallery-link d-block">
+              <img src="./assets/img/c1.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 1</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            <a href="./assets/img/c2.jpg" data-fancybox="gallery" data-caption="#2" class="gallery-link d-block">
+              <img src="./assets/img/c2.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 2</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            <a href="./assets/img/c3.jpg" data-fancybox="gallery" data-caption="#2" class="gallery-link d-block">
+              <img src="./assets/img/c3.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 3</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 pt-lg-2">
+            <a href="./assets/img/c4.jpg" data-fancybox="gallery" data-caption="#4" class="gallery-link d-block">
+              <img src="./assets/img/c4.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 4</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 pt-lg-2">
+            <a href="./assets/img/c5.jpg" data-fancybox="gallery" data-caption="#5" class="gallery-link d-block">
+              <img src="./assets/img/c5.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 5</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 pt-lg-2">
+            <a href="./assets/img/c6.jpg" data-fancybox="gallery" data-caption="#6" class="gallery-link d-block">
+              <img src="./assets/img/c6.jpg" alt="" class="d-block">
+              <span class="gallery-hover-overlay"></span>
+              <span class="gallery-hover-content">
+                <span class="title">Project 6</span>
+                <span class="content">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="row company-logos pt-5 mt-5 justify-content-center">
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/img/brand1.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/img/brand3.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/img/brand4.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/img/brand5.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/img/brand6.png" alt="" class="img-fluid">
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- process -->
+    <section class="process">
+      <div class="process-content py-5">
+        <div class="container py-lg-5 py-md-4 py-2">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img src="./assets/img/about.jpg" alt="" class="radius-image img-fluid">
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-md-5 mt-md-4">
+              <div class="title-small">Your success is our success</div>
+              <h3 class="title-big mb-4">Web design, marketing & SEO solutions that get results</h3>
+              <div class="progress-info">
+                <h6 class="progress-title info1">Marketing
+                  <span>80%</span>
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped gradient-1" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress-info">
+                <h6 class="progress-title info2">Responsive Web design
+                  <span>95%</span>
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped gradient-2" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress-info">
+                <h6 class="progress-title info3">Analytics
+                  <span>60%</span>
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped gradient-3" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress-info mb-0">
+                <h6 class="progress-title info4">Web Development
+                  <span>85%</span>
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped gradient-4" role="progressbar" style="width: 85%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!-- end process -->
+    <!-- testimonials -->
+    <section class="testimonials">
+      <div class="testimonials-content py-5">
+        <div class="container py-lg-4 py-md-3 py-2 pb-lg-0">
+          <h5 class="title-small text-center mb-1">Happy Clients Feedback</h5>
+          <h3 class="title-big text-center mb-sm-5 mb-4">Reviews and Testimonials</h3>
+          <div class="testimonials-text">
+            <div class="owl-carousel owl-theme owl-loaded owl-two">
+              <div class="testimonials-item">
+                <div class="test-item-content">
+                  <blockquote><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam suscipit autem, assumenda impedit voluptate asperiores iure provident sit quasi. Veritatis vero, quae placeat obcaecati molestias natus error accusantium temporibus.
+                  </p></blockquote>
+                  <div class="test-item-des">
+                    <div class="test-img">
+                      <img src="./assets/img/team1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="test-name">
+                      <h3>John Wilson</h3>
+                      <p class="identity">Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-item">
+                <div class="test-item-content">
+                  <blockquote><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam suscipit autem, assumenda impedit voluptate asperiores iure provident sit quasi. Veritatis vero, quae placeat obcaecati molestias natus error accusantium temporibus.
+                  </p></blockquote>
+                  <div class="test-item-des">
+                    <div class="test-img">
+                      <img src="./assets/img/team2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="test-name">
+                      <h3>Julia sakura</h3>
+                      <p class="identity">Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-item">
+                <div class="test-item-content">
+                  <blockquote><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam suscipit autem, assumenda impedit voluptate asperiores iure provident sit quasi. Veritatis vero, quae placeat obcaecati molestias natus error accusantium temporibus.
+                  </p></blockquote>
+                  <div class="test-item-des">
+                    <div class="test-img">
+                      <img src="./assets/img/team3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="test-name">
+                      <h3>Roy Linderson</h3>
+                      <p class="identity">Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-item">
+                <div class="test-item-content">
+                  <blockquote><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam suscipit autem, assumenda impedit voluptate asperiores iure provident sit quasi. Veritatis vero, quae placeat obcaecati molestias natus error accusantium temporibus.
+                  </p></blockquote>
+                  <div class="test-item-des">
+                    <div class="test-img">
+                      <img src="./assets/img/team4.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="test-name">
+                      <h3>Smith Johnson</h3>
+                      <p class="identity">Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonials -->
+    <!-- blogs -->
+    <section class="blog">
+      <div class="blog-container py-5">
+        <div class="container py-lg-5 py-md-4 py-2">
+          <h5 class="title-small text-center mb-1">Lastest news</h5>
+          <h3 class="title-big text-center mb-sm-5 mb-4 ">Our insight and articles</h3>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/hello-world/" class="d-block">
+                  <div class="image-box">  <img src="./assets/img/blog1.jpg" alt="" class="img-fluid zoom"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <div class="card-body-detail">
+                    <p><a href="">Startup Business</a></p>
+                  </div>
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/hello-world/" class="blog-desc">Hello world!</a>
+                </div>
+                <div class="card-footer">
+                  <div class="blog-author">
+                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/" class="post-author">
+                      <img src="./assets/img/328cc1f23e4a3b73aa60ee6ced1897a1.jpg" alt="" class="img-fluid rounded-circle">
+                    </a>
+                    <div class="blog-author-sign">
+                      <span class="by-text">by</span>
+                      <span class="link-layout"><a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">W3Layouts</a></span>
+                    </div>
+                    <div class="blog-date">
+                      <p class="mb-0">April 1, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/companies-in-ny-launched-a-joint-project-on-a-three-tower-hall/" class="d-block">
+                    <div class="image-box">
+                      <img src="./assets/img/blog2.jpg" alt="" class="img-fluid zoom">
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <div class="card-body-detail">
+                    <p><a href="">Startup Business</a></p>
+                  </div>
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/companies-in-ny-launched-a-joint-project-on-a-three-tower-hall/" class="blog-desc">Companies in NY launched a joint project on a three-tower hall</a>
+                </div>
+                <div class="card-footer">
+                  <div class="blog-author">
+                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/" class="post-author">
+                      <img src="./assets/img/328cc1f23e4a3b73aa60ee6ced1897a1.jpg" alt="" class="img-fluid rounded-circle">
+                    </a>
+                    <div class="blog-author-sign">
+                      <span class="by-text">by</span>
+                      <span class="link-layout"><a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">W3Layouts</a></span>
+                    </div>
+                    <div class="blog-date">
+                      <p class="mb-0">April 1, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/design-breakthrough-upgrades-the-product-and-ready-to-launch/" class="d-block">
+                    <div class="image-box">
+                      <img src="./assets/img/blog3.jpg" alt="" class="img-fluid zoom">
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <div class="card-body-detail">
+                    <p><a href="">Marketing Strategy</a></p>
+                  </div>
+                  <a href="https://wp.w3layouts.com/corpvision/2021/04/01/design-breakthrough-upgrades-the-product-and-ready-to-launch/" class="blog-desc">Design breakthrough upgrades the product and ready to launch</a>
+                </div>
+                <div class="card-footer">
+                  <div class="blog-author">
+                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/" class="post-author">
+                      <img src="./assets/img/328cc1f23e4a3b73aa60ee6ced1897a1.jpg" alt="" class="img-fluid rounded-circle">
+                    </a>
+                    <div class="blog-author-sign">
+                      <span class="by-text">by</span>
+                      <span class="link-layout"><a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">W3Layouts</a></span>
+                    </div>
+                    <div class="blog-date">
+                      <p class="mb-0">April 1, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end blogs -->
+    <!-- subscribe -->
+    <section class="subscribe">
+      <div class="subscribe-container py-5">
+        <div class="container py-md-5 py-sm-4 py-2">
+          <div class="subscribe-content">
+            <div class="subscribe-top text-center">
+              <h3 class="title-big">Let's find out how to work together </h3>
+              <p class="text-para mt-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum.</p>
+            </div>
+            <div class="subscribe-bot">
+              <form method="post" action="" class="subscribe-form mt-5">
+                <div class="subscribe-icon">
+                  <i class="fa fa-paper-plane"></i>
+                </div>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button class="btn btn-success btn-style">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- end subscribe -->
+    <!-- footer -->
+    <footer>
+      <div class="footer-container py-5">
+        <div class="container py-md-4">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-logo mb-4">
+                <a href="#" class="navbar-brand">
+                  <i class="fa fa-align-right">  </i>
+                  <span class="logo-name">Corp Vision</span>
+                  <span class="logo">Vision to your Future</span>
+                </a>
+              </div>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perspiciatis recusandae ex. Officiis unde rerum, asperiores distinctio sint ratione nemo qui, ex, quia ipsum commodi molestias voluptas facere nesciunt id?</p>
+              <div class="social-footer mt-md-4 mt-3">
+                <a href="#" class="fa-facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5 pr-lg-5">
+              <div class="footer-title">Contact Info</div>
+              <div class="footer-text">
+                <p class="mb-2">Address: Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617</p>
+                <p class="mb-2">
+                  Phone Number: 
+                  <a href=""> +1(21) 234 4567</a>
+                </p>
+                <p class="mb-2">
+                  Email: 
+                  <a href=""> info@example.com</a>
+                </p>
+                <p class="mb-2">
+                  Support:
+                  <a href=""> info@support.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+              <div class="footer-title">Categories</div>
+              <div class="footer-text">
+                <p class="mb-2"><a href="">Marketing Strategy</a> </p>
+                <p class="mb-2"><a href="">Startup Business</a> </p>
+                <p class="mb-2"><a href="">Web development</a> </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+              <div class="footer-title">Meta</div>
+              <div class="footer-text">
+                <p class="mb-2"><a href="">Log in</a></p>
+                <p class="mb-2"><a href="">Entries feed</a></p>
+                <p class="mb-2"><a href="">Comments feed</a></p>
+                <p class="mb-2"><a href="">WordPress.org</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">
+        <div class="container"></div>
+        <div class="copy-content">
+          <p>© 2022 Corp Vision all Rights Reserved | WordPress Theme by <a href="https://w3layouts.com/">W3Layouts.</a></p>
+        </div>
+        <button onclick="topFunction()" id="movetop"><span class="fa fa-angle-up"></span></button>
+      </div>
+    </footer>
+    <!-- ============================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".banner-slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          arrows: true,
+          fade: true,
+          dots: false,
+          swipe: true,
+          adaptiveHeight: true,
+          responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 4000,
+                swipe: true,
+              },
+            },
+          ],
+        });
+ if ($('.slick-slide').hasClass('slick-active')) {
+    $('.slide-content').addClass('animate__fadeInUp');
+  } else {
+    $('.slide-content').removeClass('animate__fadeInUp');
+  }
+
+  $(".banner-slider").on("beforeChange", function() {
+    
+    $('.slide-content').removeClass('animate__fadeInUp').hide();
+    setTimeout(() => {    
+      $('.slide-content').addClass('animate__fadeInUp').show();
+      
+    },0);
+
+  })
+      });
+    </script>
+    <!-- ============================== -->
+    <!-- header scroll -->
+    <script>
+      $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+    </script>
+
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  $('[data-fancybox="gallery"]').fancybox({
+    loop:true
+  })
+</script>
+<script src="./assets/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+  
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      responsiveClass: true,
+      dots:true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        768: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 1,
+          nav: false,
+          loop: false
+        }
+      }
+    })
+  })
+</script>
+<!-- move top -->
+<script>
+
+  // When the user scrolls down 20px from the top of the document, show the button
+
+  window.onscroll = function () {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("movetop").style.display = "block";
+    } else {
+      document.getElementById("movetop").style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'})
+    // document.body.scrollTop = 0;
+    // document.documentElement.scrollTop = 0;
+  }
+</script>
+<!-- end movetop -->
+<!-- search -->
+<script>
+$('.control').click(function () {
+    $('body').addClass('search-active');
+    $('.input-search').focus();
+  });
+
+  $('.icon-close').click(function () {
+    $('body').removeClass('search-active');
+  });
+</script>
+<!-- end search -->
+
+<!-- start toggle theme -->
+<script>
+  document.getElementById("switchBtn").onclick = function () {
+  document.querySelector("body").classList.toggle("dark");
+};
+</script>
+<!-- end togle theme -->
+  </body>
+</html>
