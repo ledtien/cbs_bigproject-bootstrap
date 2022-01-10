@@ -332,6 +332,12 @@ body.dark .btn-style1 {
   color: white;
 }
 
+body.dark .btn-style1:hover,
+body.dark .blog-desc:hover,
+body.dark .link-layout a:hover {
+  color: var(--primary-color);
+}
+
 body.dark .company-logos {
   border-top: 1px solid rgba(225, 225, 225, 0.1);
 }
