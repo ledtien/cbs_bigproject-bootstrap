@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!-- end bootstrap -->
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- end font-awesome -->
+    <!-- slick -->
+    <link rel="stylesheet" href="./assets/js/slick-1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/js/slick-1.8.1/slick/slick-theme.css"
+    />
+    <!-- end slick -->
+    <!-- fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- end fancybox -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end google font -->
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="./assets/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <!-- end owl carousel -->
+    <!-- main css  -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>Farm Stead</title>
+  </head>
+  <body>
+    <!-- content -->
+    <header class="main-header fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <h1>
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              Farmstead
+              <i class="fa fa-leaf"></i>
+            </a>
+          </h1>
+          <div class="navbar ml-lg-auto">
+            <div class="search-right">
+              <form action="" method="GET">
+                <input type="search" placeholder="Search" name="s" />
+              </form>
+            </div>
+            <div class="toggle-theme text-center mr-3">
+              <div class="toggle d-flex align-items-center">
+                <button id="theme-toggle" class="mode-container" type="button">
+                  <span class="gg-sun"><i class="far fa-sun"></i></span>
+                  <span class="gg-moon"><i class="far fa-moon"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="nav-menu">
+              <div class="menu">
+                <input type="checkbox" id="dropDown" name="menu" />
+                <label for="dropDown">
+                  <span class="fas fa-bars"></span>
+                </label>
+                <ul class="menu-list">
+                  <li class="menu-item active"><a href="">Home</a></li>
+                  <li class="menu-item"><a href="">About</a></li>
+                  <li class="menu-item"><a href="">Services</a></li>
+                  <li class="menu-item"><a href="">Blog Posts</a></li>
+                  <li class="menu-item"><a href="">Landing page</a></li>
+                  <li class="menu-item"><a href="">Elements Page</a></li>
+                  <li class="menu-item"><a href="">404 Page</a></li>
+                  <li class="menu-item"><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5 banner-left">
+            <div class="banner-left-content">
+              <h2 class="farm-word">Farm</h2>
+              <div class="banner-contents">
+                <h3 class="mb-sm-4 mb02">
+                  Welcome to Farmstead where Natural Food is born!
+                </h3>
+                <p class="banner-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquam, nihil.
+                </p>
+                <a class="btn btn-style mt-sm-5 mt-4">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 p-0 ml-auto banner-right">
+            <div class="banner-slider">
+              <div class="banner-image bg-image bg-1">
+                <div class="image-content">
+                  <h4>01/03</h4>
+                  <p>Agriculture</p>
+                </div>
+              </div>
+              <div class="banner-image bg-image bg-2">
+                <div class="image-content">
+                  <h4>02/03</h4>
+                  <p>Agriculture</p>
+                </div>
+              </div>
+              <div class="banner-image bg-image bg-3">
+                <div class="image-content">
+                  <h4>03/03</h4>
+                  <p>Agriculture</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features py-5">
+      <div class="container py-md-5 py-4">
+        <div class="row align-items-center">
+          <div class="col-lg-6 pr-lg-5 feature-left">
+            <h5 class="small-title">Grow Naturally</h5>
+            <h3 class="title-style mb-2 mb-md-3">Leaders in the field</h3>
+            <p class="text-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit excepturi iste quidem? Nobis debitis excepturi sint
+              eligendi, quaerat recusandae minus voluptatem suscipit esse
+              officia dolore repellendus deleniti ipsam cum vero?
+            </p>
+            <a href="" class="btn btn-style mt-4 mt-lg-5">Discover More</a>
+          </div>
+          <div class="col-lg-6 mt-lg-0 feature-right">
+            <div class="feature-right-grid">
+              <div class="grid-box">
+                <div class="grid-icon">
+                  <img src="./assets/img/img4.png" alt="" class="img-fluid" />
+                </div>
+                <h4><a href=""> Natural Products </a></h4>
+              </div>
+              <div class="grid-box">
+                <div class="grid-icon">
+                  <img src="./assets/img/img2.png" alt="" class="img-fluid" />
+                </div>
+                <h4><a href=""> Wheat Cultivation </a></h4>
+              </div>
+              <div class="grid-box">
+                <div class="grid-icon">
+                  <img src="./assets/img/img1.png" alt="" class="img-fluid" />
+                </div>
+                <h4><a href=""> Modern Truck </a></h4>
+              </div>
+              <div class="grid-box">
+                <div class="grid-icon">
+                  <img src="./assets/img/img3.png" alt="" class="img-fluid" />
+                </div>
+                <h4><a href=""> Organic Products </a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service py-5">
+      <div class="container py-4 py-md-5">
+        <div class="service-title position-relative mb-4 mb-sm-5 pb-xl-4">
+          <h4 class="service-bg-title">Services</h4>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h5 class="small-title mb-md-2 text-white">What we do</h5>
+              <h3 class="title-style text-white">
+                Why Choose Our Fresh Organic Foods
+              </h3>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-2">
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae soluta vero odio tenetur nihil cumque illo nostrum
+                quam qui beatae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header p-0 position-relative border-0">
+                <a href="" class="">
+                  <img
+                    src="./assets/img/service1.jpg"
+                    alt=""
+                    class="d-block img-respon"
+                  />
+                </a>
+              </div>
+              <div class="card-body service-card-content">
+                <div class="label-style">Natural</div>
+                <a href="" class="service-card-heading">Agriculture Products</a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam necessitatibus porro odit harum totam sint atque, quod
+                  quasi laborum natus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            <div class="card">
+              <div class="card-header p-0 position-relative border-0">
+                <a href="" class="">
+                  <img
+                    src="./assets/img/service2.jpg"
+                    alt=""
+                    class="d-block img-respon"
+                  />
+                </a>
+              </div>
+              <div class="card-body service-card-content">
+                <div class="label-style">Agriculture</div>
+                <a href="" class="service-card-heading">Fresh Vegetables</a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam necessitatibus porro odit harum totam sint atque, quod
+                  quasi laborum natus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            <div class="card">
+              <div class="card-header p-0 position-relative border-0">
+                <a href="" class="">
+                  <img
+                    src="./assets/img/service3.jpg"
+                    alt=""
+                    class="d-block img-respon"
+                  />
+                </a>
+              </div>
+              <div class="card-body service-card-content">
+                <div class="label-style">Farm</div>
+                <a href="" class="service-card-heading">Organic Products</a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam necessitatibus porro odit harum totam sint atque, quod
+                  quasi laborum natus?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-expect py-5">
+      <div class="container py-md-5 py-4">
+        <div class="row">
+          <div class="col-lg-6 service-expect-left">
+            <h5 class="small-title">Why choose us</h5>
+            <h3 class="title-style mb-3">
+              Quality food is the most important thing in our life
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque saepe optio sapiente nemo eos cum deserunt recusandae
+              sequi illo. Beatae.
+            </p>
+            <div class="row mt-sm-5 mt-4 pt-lg-4">
+              <div class="col-lg-6 d-flex expect-info">
+                <span class="fa fa-users"></span>
+                <div class="detail ml-2">
+                  <h4>Qualified Staff</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis, commodi.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-4 mt-sm-0 d-flex expect-info">
+                <span class="far fa-life-ring"></span>
+                <div class="detail ml-2">
+                  <h4>Qualified Staff</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis, commodi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-expect-right col-lg-5 mt-lg-0 mt-sm-5 mt-4 offset-lg-1 offset-md-2 position-relative"
+          >
+            <img
+              src="./assets/img/image.jpg"
+              alt=""
+              class="img-fluid radius-image"
+            />
+            <div class="img-info">
+              <h6 class="img-info__title">36+</h6>
+              <p>Years of experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img5.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Agriculture</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img6.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Fresh</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img7.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Natural</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img8.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Farm</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img9.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Organic</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 block-mtop">
+            <a href="" class="d-flex block-item">
+              <div class="col-3">
+                <div class="block-icon">
+                  <img src="./assets/img/img10.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="block-text">
+                  <h4>Dairy</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    natus?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery py-5">
+      <div class="container py-md-5 py-4">
+        <div class="row gallery-grids no-gutters">
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-main mt-sm-2">
+              <h5 class="small-title">Gallery</h5>
+              <h3 class="title-style title">Our Products</h3>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+              <a href="" class="btn btn-style mt-4">Discover More</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g2.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#1"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g2.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Fresh Carrots</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g3.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#2"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g3.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Strawberry</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g6.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#3"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g6.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Our Farm</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g5.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#4"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g5.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Fresh Apples</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g1.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#5"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g1.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Awesome Foelds</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g7.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#6"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g7.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Fresh Grapes</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-img-grid">
+            <div class="gallery-item">
+              <a
+                href="./assets/img/g8.jpg"
+                class="d-block"
+                data-fancybox="gallery"
+                data-caption="#7"
+              >
+                <div class="figure">
+                  <img src="./assets/img/g8.jpg" class="img-fluid" alt="" />
+                  <h5 class="gall-text">Hot Pepper</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials py-5">
+      <div class="testimonials-layout py-lg-5">
+        <div class="container py-md-5 py-4">
+          <div class="testimonial-row">
+            <div class="owl-carousel owl-theme owl-drag owl-two">
+              <div class="testimonial-item">
+                <div class="testimonial-main">
+                  <div class="row align-items-center">
+                    <div class="col-md-3 test-customer">
+                      <a href="" class="img-customer">
+                        <img
+                          src="./assets/img/testi1.jpg"
+                          class="radius-image img-fluid"
+                          alt=""
+                        />
+                      </a>
+                      <div class="customer-name">
+                        <h3>Dennis Wilson</h3>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                    <div
+                      class="customer-quote col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center"
+                    >
+                      <span class="fa fa-quote-left"></span>
+                      <blockquote>
+                        <q>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Soluta maxime iste cum voluptatem nulla et,
+                          molestias iure debitis ipsum? Maxime recusandae
+                          delectus dicta eaque debitis, laborum iusto possimus
+                          accusantium aspernatur?
+                        </q>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <div class="testimonial-main">
+                  <div class="row align-items-center">
+                    <div class="col-md-3 test-customer">
+                      <a href="" class="img-customer">
+                        <img
+                          src="./assets/img/testi2.jpg"
+                          class="radius-image img-fluid"
+                          alt=""
+                        />
+                      </a>
+                      <div class="customer-name">
+                        <h3>Dennis Wilson</h3>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                    <div
+                      class="customer-quote col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center"
+                    >
+                      <span class="fa fa-quote-left"></span>
+                      <blockquote>
+                        <q>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Soluta maxime iste cum voluptatem nulla et,
+                          molestias iure debitis ipsum? Maxime recusandae
+                          delectus dicta eaque debitis, laborum iusto possimus
+                          accusantium aspernatur?
+                        </q>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <div class="testimonial-main">
+                  <div class="row align-items-center">
+                    <div class="col-md-3 test-customer">
+                      <a href="" class="img-customer">
+                        <img
+                          src="./assets/img/testi3.jpg"
+                          class="radius-image img-fluid"
+                          alt=""
+                        />
+                      </a>
+                      <div class="customer-name">
+                        <h3>Dennis Wilson</h3>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                    <div
+                      class="customer-quote col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center"
+                    >
+                      <span class="fa fa-quote-left"></span>
+                      <blockquote>
+                        <q>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Soluta maxime iste cum voluptatem nulla et,
+                          molestias iure debitis ipsum? Maxime recusandae
+                          delectus dicta eaque debitis, laborum iusto possimus
+                          accusantium aspernatur?
+                        </q>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main py-5">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
+              <h4 class="footerLogo">
+                <a href="#" class="logo">
+                  Farmstead
+                  <i class="fa fa-leaf"></i>
+                </a>
+              </h4>
+              <p class="mt-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                laboriosam quis aspernatur aperiam velit commodi.
+              </p>
+              <p class="copy-text mt-5">
+                © 2022 Farmstead. All Rights Reserved | WordPress Theme by
+                <a href="https://w3layouts.com/"> W3Layouts </a>
+              </p>
+            </div>
+            <div class="col-lg-4 pl-lg-5">
+              <div class="footer-list">
+                <h3 class="footer-title">Find Us</h3>
+                <div class="footer-item">
+                  <p>
+                    Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.
+                  </p>
+                  <p class="mt-3">Phone: <a href=""> +12 23456790</a></p>
+                  <p class="mt-3">Email: <a href=""> info@example.com</a></p>
+                  <p class="mt-3">Fax: <a href=""> +11 367 21890</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7 order-lg-3 or-1 mt-lg-0 mt-5">
+              <h3 class="footer-title">newsletter</h3>
+              <div class="footer-sub">
+                <p>
+                  Subscribe to our mailing list and get updates to your email
+                  inbox
+                </p>
+                <form action="" class="subscribe d-flex mt-3" method="post">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <button><span class="fa fa-paper-plane"></span></button>
+                </form>
+              </div>
+              <ul class="footer-social mt-4 pt-2">
+                <li>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="movetop">
+        <span class="fa fa-level-up"></span>
+      </button>
+    </footer>
+    <!-- end content -->
+    <!-- script -->
+    <!-- jquery -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end jquery -->
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end bootstrap -->
+    <!-- move top -->
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        // document.body.scrollTop = 0;
+        // document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- end move top -->
+    <!-- slick -->
+    <script src="./assets/js/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+      $(".banner-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        swipe: true,
+        draggable: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 4000,
+              swipe: true,
+            },
+          },
+        ],
+      });
+    </script>
+    <!-- end slick -->
+    <!-- start fancybox -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $('[data-fancybox="gallery"]').fancybox({
+        loop: true,
+      });
+    </script>
+    <!-- end fancybox -->
+    <!-- owl carousel -->
+    <script src="./assets/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: false,
+          responsiveClass: true,
+          autoplay: false,
+          autoplayTimeout: 5000,
+          autoplaySpeed: 1000,
+          autoplayHoverPause: false,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false,
+            },
+            1000: {
+              items: 1,
+              nav: false,
+              loop: false,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- end owl carousel -->
+    <!-- move top -->
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        // document.body.scrollTop = 0;
+        // document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- end movetop -->
+    <!-- fixed nav -->
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- end fixed nav -->
+    <!-- toggle theme -->
+    <script>
+      document.getElementById("theme-toggle").onclick = function () {
+        var theme = document.documentElement.getAttribute("data-theme");
+        document.documentElement.setAttribute(
+          "data-theme",
+          theme === "light" ? "dark" : "light"
+        );
+      };
+    </script>
+    <!-- end toggle theme -->
+    <!-- end script -->
+  </body>
+</html>
